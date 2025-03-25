@@ -5,8 +5,8 @@ public class Graus {
         final int b = 25;
         final int c = 27;
 
-        System.out.println("Porto "+a+" graus \n ");
-        System.out.println("Lisboa "+b+" graus \n");
-        System.out.println("Faro "+c+" graus \n");
+        System.out.print("Porto "+a+" graus \n");
+        System.out.print("Lisboa "+b+" graus \n");
+        System.out.print("Faro "+c+" graus \n");
     }
 }
