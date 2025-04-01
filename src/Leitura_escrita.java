@@ -12,7 +12,5 @@ public class Leitura_escrita {
         System.out.print("Idade: ");
         idade = input.nextInt();
         System.out.print("O " + nome + " tem " + idade + " anos");
-
-        input.close();
     }
 }
