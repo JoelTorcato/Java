@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Leitura_escrita {
+public class LeituraEscrita {
     public static void main(String[] args) {
         int idade;
         String nome;
