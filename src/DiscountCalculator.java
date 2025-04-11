@@ -15,7 +15,6 @@ public class DiscountCalculator {
         double discountAmount = purchaseAmount * discountPercentage / 100;
         double finalAmount = purchaseAmount - discountAmount;
 
-        // Display results
         System.out.println("Customer Type: " + customerType);
         System.out.println("Purchase Amount: €" + purchaseAmount);
         System.out.println("Discount Percentage: " + discountPercentage + "%");
@@ -75,5 +74,7 @@ public class DiscountCalculator {
         }
 
         return discount;
+
+        // Claude helped me
     }
 }
