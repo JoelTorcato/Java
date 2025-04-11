@@ -43,7 +43,7 @@ public class PlanetWeightCalculator {
                 System.exit(0);
         }
 
-        double planetWeight = earthWeight / 10 * gravity;
+        double planetWeight = earthWeight * 10 * gravity;
         System.out.println("Your weight on the chosen planet is: " + planetWeight + " kg");
     }
 }
