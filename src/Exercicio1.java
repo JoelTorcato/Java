@@ -1,5 +1,4 @@
-public class Exercicio1 {
-    public static class Pessoa {
+ public static class Pessoa {
         String nome;
         char genero;
         int idade;
@@ -45,4 +44,3 @@ public class Exercicio1 {
         pessoa2.falar();
         sc.close();
     }
-}
